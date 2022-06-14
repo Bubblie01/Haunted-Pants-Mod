@@ -1,6 +1,6 @@
-# Quilt Template Mod
+# Haunted Pants
 
-The official Quilt template Mod. You can use it as a template for your own mods!
+Literally Haunted Pants that just spawn randomly and attack you. 
 
 ## Usage
 
