@@ -1,8 +1,8 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "com.example",
-		"id": "example_mod",
+		"group": "io.github.bubblie01",
+		"id": "haunted_pants",
 		"version": "${version}",
 		"metadata": {
 			"name": "Mod Name",
@@ -11,15 +11,16 @@
 				"Me!": "Owner"
 			},
 			"contact": {
-				"homepage": "https://example.com/",
-				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
-				"sources": "https://github.com/QuiltMC/quilt-template-mod"
+				"homepage": "https://io.github.Bubblie01/",
+				"issues": "https://github.com/Bubblie01/Haunted-Pants-Mod/issues",
+				"sources": "https://github.com/Bubblie01/Haunted-Pants-Mod"
 			},
-			"icon": "assets/example_mod/icon.png"
+			"icon": "assets/haunted_pants/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "io.github.bubblie01.haunted_pants.Main",
+			"client_init": "io.github.bubblie01.haunted_pants.ClientInitializer"
 		},
 		"depends": [
 			{
@@ -36,5 +37,5 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "haunted_pants.mixins.json"
 }
